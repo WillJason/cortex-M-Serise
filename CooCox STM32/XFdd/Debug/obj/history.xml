@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103ZE -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\cmsis -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\hardware\LED -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\system\sys -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\hardware\CAT9555 -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\cmsis_boot -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\system -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\hardware\TIMER -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\stm_lib -I..\..\..\..\..\Users\DFMC\Desktop\XFdd -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\hardware\CMD -I..\..\..\..\..\Users\DFMC -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\hardware\EXTI -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\hardware\KGOUT -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\system\usart -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\stm_lib\inc -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\hardware\WDG -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\hardware\detect -I..\..\..\..\..\Users\DFMC\Desktop -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\system\delay -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\hardware\AD974 -I..\..\..\..\..\Users\DFMC\Desktop\XFdd\hardware">
+      <target file="timer.o" lastModified="14fde3fe806">
+         <source file="..\..\..\hardware\TIMER\timer.c" lastModified="14fbf14d79d"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="14fbf2c5a9b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14fbefbd64d"/>
+      </target>
+      <target file="exti.o" lastModified="14fde3febfc">
+         <source file="..\..\..\hardware\EXTI\exti.c" lastModified="14fbf565307"/>
+      </target>
+      <target file="stm32f10x_iwdg.o" lastModified="14fbf2c5bc3">
+         <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="14fbefebb8c"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="14fbf2c56d4">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14fbefbd61f"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="14fbf2c5493">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="14fbefe9ae2"/>
+      </target>
+      <target file="CAT9555.o" lastModified="14fde3feaa5">
+         <source file="..\..\..\hardware\CAT9555\CAT9555.c" lastModified="14fd097b768"/>
+      </target>
+      <target file="printf.o" lastModified="14fbf2c5686">
+         <source file="..\..\..\stdio\printf.c" lastModified="14fbef9ac80"/>
+      </target>
+      <target file="led.o" lastModified="14fde3fe864">
+         <source file="..\..\..\hardware\LED\led.c" lastModified="14fbf201e0c"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="14fbf2c5ae9">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="14fbefbd64d"/>
+      </target>
+      <target file="misc.o" lastModified="14fbf2c5a4d">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="14fbefbd6bb"/>
+      </target>
+      <target file="stm32f10x_fsmc.o" lastModified="14fbf2c5464">
+         <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="14fbefecb07"/>
+      </target>
+      <target file="AD974.o" lastModified="14fde3fe8c1">
+         <source file="..\..\..\hardware\AD974\AD974.c" lastModified="14fbf0d19ae"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="14fbf2c59d0">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="14fbefedd20"/>
+      </target>
+      <target file="wdg.o" lastModified="14fde3fea38">
+         <source file="..\..\..\hardware\WDG\wdg.c" lastModified="14fbf166e7f"/>
+      </target>
+      <target file="stm32f10x_bkp.o" lastModified="14fbf2c5b27">
+         <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="14fbefea4f0"/>
+      </target>
+      <target file="detect.o" lastModified="14fde5f7f5c">
+         <source file="..\..\..\hardware\detect\detect.c" lastModified="14fde5f7c40"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="14fbf2c5703">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="14fbefbd62e"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14fbf2c553e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14fbefbd61f"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="14fbf2c51b5">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="14fbefeb2d5"/>
+      </target>
+      <target file="CMD.o" lastModified="14fde7a723a">
+         <source file="..\..\..\hardware\CMD\CMD.c" lastModified="14fde7a6f5d"/>
+      </target>
+      <target file="delay.o" lastModified="14fde3fe7a8">
+         <source file="..\..\..\system\delay\delay.c" lastModified="14fbf070d80"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14fbf2c533b">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14fbef98c34"/>
+      </target>
+      <target file="syscalls.o" lastModified="14fbf2c5925">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14fbef99db2"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="14fbf2c53b8">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="14fbef98c25"/>
+      </target>
+      <target file="stm32f10x_sdio.o" lastModified="14fbf2c5a1e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_sdio.c" lastModified="14fbeff136b"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="14fbf2c57be">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="14fbefef5ed"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="14fbf2c529f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="14fbefee77c"/>
+      </target>
+      <target file="usart.o" lastModified="14fde3fec5a">
+         <source file="..\..\..\system\usart\usart.c" lastModified="14fbf0a8981"/>
+      </target>
+      <target file="KGOUT.o" lastModified="14fde3feb9e">
+         <source file="..\..\..\hardware\KGOUT\KGOUT.c" lastModified="14fdb29fa1a"/>
+      </target>
+      <target file="sys.o" lastModified="14fde3fe98c">
+         <source file="..\..\..\system\sys\sys.c" lastModified="14fbf09834a"/>
+      </target>
+      <target file="main.o" lastModified="14ff83633c9">
+         <source file="..\..\..\main.c" lastModified="14ff8363197"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="14fbf2c580c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14fbefbd65d"/>
+      </target>
+   </processor>
+</history>

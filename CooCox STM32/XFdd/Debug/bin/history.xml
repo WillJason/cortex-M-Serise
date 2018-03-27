@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=XFdd.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\XFdd -TC:\CooCox\CoIDE\configuration\ProgramData\XFdd/arm-gcc-link.ld -g">
+      <target file="XFdd.elf" lastModified="14ff83635bc">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="14fbf2c51b5"/>
+         <source file="..\obj\delay.o" lastModified="14fde3fe7a8"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="14fbf2c529f"/>
+         <source file="..\obj\timer.o" lastModified="14fde3fe806"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="14fbf2c533b"/>
+         <source file="..\obj\led.o" lastModified="14fde3fe864"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="14fbf2c53b8"/>
+         <source file="..\obj\AD974.o" lastModified="14fde3fe8c1"/>
+         <source file="..\obj\stm32f10x_fsmc.o" lastModified="14fbf2c5464"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="14fbf2c5493"/>
+         <source file="..\obj\CMD.o" lastModified="14fde7a723a"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14fbf2c553e"/>
+         <source file="..\obj\sys.o" lastModified="14fde3fe98c"/>
+         <source file="..\obj\main.o" lastModified="14ff83633c9"/>
+         <source file="..\obj\wdg.o" lastModified="14fde3fea38"/>
+         <source file="..\obj\printf.o" lastModified="14fbf2c5686"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14fbf2c56d4"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="14fbf2c5703"/>
+         <source file="..\obj\CAT9555.o" lastModified="14fde3feaa5"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="14fbf2c57be"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="14fbf2c580c"/>
+         <source file="..\obj\detect.o" lastModified="14fde5f7f5c"/>
+         <source file="..\obj\KGOUT.o" lastModified="14fde3feb9e"/>
+         <source file="..\obj\syscalls.o" lastModified="14fbf2c5925"/>
+         <source file="..\obj\exti.o" lastModified="14fde3febfc"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="14fbf2c59d0"/>
+         <source file="..\obj\stm32f10x_sdio.o" lastModified="14fbf2c5a1e"/>
+         <source file="..\obj\misc.o" lastModified="14fbf2c5a4d"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="14fbf2c5a9b"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="14fbf2c5ae9"/>
+         <source file="..\obj\stm32f10x_bkp.o" lastModified="14fbf2c5b27"/>
+         <source file="..\obj\usart.o" lastModified="14fde3fec5a"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="14fbf2c5bc3"/>
+      </target>
+   </processor>
+</history>
