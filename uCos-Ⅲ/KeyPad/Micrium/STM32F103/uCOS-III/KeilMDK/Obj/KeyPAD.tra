@@ -1,0 +1,73 @@
+*** Creating Trace Output File '.\Obj\KeyPAD.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\app.o"'
+### List of Objects: adding '".\obj\os_app_hooks.o"'
+### List of Objects: adding '".\obj\bsp.o"'
+### List of Objects: adding '".\obj\bsp_int.o"'
+### List of Objects: adding '".\obj\bsp_periph.o"'
+### List of Objects: adding '".\obj\cstartup.o"'
+### List of Objects: adding '".\obj\uart.o"'
+### List of Objects: adding '".\obj\cpu_c.o"'
+### List of Objects: adding '".\obj\cpu_core.o"'
+### List of Objects: adding '".\obj\cpu_a.o"'
+### List of Objects: adding '".\obj\lib_ascii.o"'
+### List of Objects: adding '".\obj\lib_math.o"'
+### List of Objects: adding '".\obj\lib_mem.o"'
+### List of Objects: adding '".\obj\lib_str.o"'
+### List of Objects: adding '".\obj\lib_mem_a.o"'
+### List of Objects: adding '".\obj\os_cpu_a.o"'
+### List of Objects: adding '".\obj\os_cpu_c.o"'
+### List of Objects: adding '".\obj\os_cfg_app.o"'
+### List of Objects: adding '".\obj\os_core.o"'
+### List of Objects: adding '".\obj\os_dbg.o"'
+### List of Objects: adding '".\obj\os_flag.o"'
+### List of Objects: adding '".\obj\os_int.o"'
+### List of Objects: adding '".\obj\os_mem.o"'
+### List of Objects: adding '".\obj\os_msg.o"'
+### List of Objects: adding '".\obj\os_mutex.o"'
+### List of Objects: adding '".\obj\os_pend_multi.o"'
+### List of Objects: adding '".\obj\os_prio.o"'
+### List of Objects: adding '".\obj\os_q.o"'
+### List of Objects: adding '".\obj\os_sem.o"'
+### List of Objects: adding '".\obj\os_stat.o"'
+### List of Objects: adding '".\obj\os_task.o"'
+### List of Objects: adding '".\obj\os_tick.o"'
+### List of Objects: adding '".\obj\os_time.o"'
+### List of Objects: adding '".\obj\os_tmr.o"'
+### List of Objects: adding '".\obj\os_var.o"'
+### List of Objects: adding '".\obj\key.o"'
+### List of Objects: adding '".\obj\disp.o"'
+### List of Objects: adding '".\obj\command.o"'
+### List of Objects: adding '".\obj\getcmd.o"'
+### List of Objects: adding '".\obj\string.o"'
+### List of Objects: adding '".\obj\term.o"'
+### List of Objects: adding '".\obj\printk.o"'
+### List of Objects: adding '".\obj\rtc.o"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32f10x_bkp.o"'
+### List of Objects: adding '".\obj\stm32f10x_dma.o"'
+### List of Objects: adding '".\obj\stm32f10x_exti.o"'
+### List of Objects: adding '".\obj\stm32f10x_flash.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\stm32f10x_pwr.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_rtc.o"'
+### List of Objects: adding '".\obj\stm32f10x_spi.o"'
+### List of Objects: adding '".\obj\stm32f10x_tim.o"'
+### List of Objects: adding '".\obj\stm32f10x_usart.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\app.o" ".\obj\os_app_hooks.o" ".\obj\bsp.o" ".\obj\bsp_int.o" ".\obj\bsp_periph.o" ".\obj\cstartup.o" ".\obj\uart.o" ".\obj\cpu_c.o" ".\obj\cpu_core.o" ".\obj\cpu_a.o" ".\obj\lib_ascii.o" ".\obj\lib_math.o" ".\obj\lib_mem.o" ".\obj\lib_str.o" ".\obj\lib_mem_a.o" ".\obj\os_cpu_a.o" ".\obj\os_cpu_c.o" ".\obj\os_cfg_app.o" ".\obj\os_core.o" ".\obj\os_dbg.o" ".\obj\os_flag.o" ".\obj\os_int.o" ".\obj\os_mem.o" ".\obj\os_msg.o" ".\obj\os_mutex.o" ".\obj\os_pend_multi.o" ".\obj\os_prio.o" ".\obj\os_q.o" ".\obj\os_sem.o" ".\obj\os_stat.o" ".\obj\os_task.o" ".\obj\os_tick.o" ".\obj\os_time.o" ".\obj\os_tmr.o" ".\obj\os_var.o" ".\obj\key.o" ".\obj\disp.o" ".\obj\command.o" ".\obj\getcmd.o" ".\obj\string.o" ".\obj\term.o" ".\obj\printk.o" ".\obj\rtc.o" ".\obj\misc.o" ".\obj\stm32f10x_bkp.o" ".\obj\stm32f10x_dma.o" ".\obj\stm32f10x_exti.o" ".\obj\stm32f10x_flash.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_pwr.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_rtc.o" ".\obj\stm32f10x_spi.o" ".\obj\stm32f10x_tim.o" ".\obj\stm32f10x_usart.o" --library_type=microlib --strict --scatter ".\Obj\KeyPAD.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\KeyPAD.map" -o ".\Obj\KeyPAD.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\KeyPAD.axf'
+### ADS-LD Command File: '.\Obj\KeyPAD.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\KeyPAD.lnp', Handle=0x000004C4
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\KeyPAD.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

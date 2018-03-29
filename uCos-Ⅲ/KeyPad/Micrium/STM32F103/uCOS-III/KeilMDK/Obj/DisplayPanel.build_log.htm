@@ -1,0 +1,364 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\工作资料\机车远程管理\软件\键盘控制器V1\KeyPad\Micrium\STM32F103\uCOS-III\KeilMDK\DisplayPanel.uvproj
+Project File Date:  08/12/2015
+
+<h2>Output:</h2>
+Build target 'KeyPad'
+linking...
+Program Size: Code=34552 RO-data=1136 RW-data=300 ZI-data=15412  
+FromELF: creating hex file...
+After Build - User command #1: fromelf.exe --bin -o "D:\工作资料\机车远程管理\软件\键盘控制器V1\KeyPad\Micrium\STM32F103\uCOS-III\KeilMDK\Obj\KeyPAD.bin" "D:\工作资料\机车远程管理\软件\键盘控制器V1\KeyPad\Micrium\STM32F103\uCOS-III\KeilMDK\Obj\KeyPAD.axf"
+".\Obj\KeyPAD.axf" - 0 Error(s), 0 Warning(s).
+d
+                                uint8_t i;
+..\app.c(286): warning:  #223-D: function "Uart_cfg" declared implicitly
+        Uart_cfg();
+..\app.c(311): warning:  #550-D: variable "pdat" was set but never used
+        CPU_INT32U *pdat;
+..\app.c(359): warning:  #1-D: last line of file ends without a newline
+  }
+..\app.c(349): warning:  #550-D: variable "pdat" was set but never used
+        CPU_INT32U *pdat;
+..\app.c(48): warning:  #177-D: variable "AppTaskDisplayStk" was declared but never referenced
+  static  CPU_STK                                       AppTaskDisplayStk[APP_CFG_TASK_DISPLAY_STK_SIZE];
+..\app.c(50): warning:  #177-D: variable "AppTaskCommStk" was declared but never referenced
+  static  CPU_STK         AppTaskCommStk[APP_CFG_TASK_COMM_STK_SIZE];
+..\app.c(308): warning:  #177-D: function "AppTaskDisplay" was declared but never referenced
+  static void AppTaskDisplay(void* arg)
+..\app.c(346): warning:  #177-D: function "AppTaskComm" was declared but never referenced
+  static void AppTaskComm(void* arg)
+..\app.c(124): warning:  #177-D: variable "normal0" was declared but never referenced
+  static const uint8_t normal0[]={0xff,0x00,0x00,0x45,0x56,0x67,0x00,0x00,0xdd};
+..\app.c(125): warning:  #177-D: variable "normal1" was declared but never referenced
+  static const uint8_t normal1[]={0xff,0x10,0x00,0xC3,0xC5,0x51,0x24,0x61,0xdd};
+..\app.c(126): warning:  #177-D: variable "normal2" was declared but never referenced
+  static const uint8_t normal2[]={0xff,0x20,0x00,0x07,0x81,0x9D,0xA7,0x75,0xdd};
+..\app.c(127): warning:  #177-D: variable "normal3" was declared but never referenced
+  static const uint8_t normal3[]={0xff,0x30,0x00,0x52,0x55,0x9D,0x77,0x7E,0xdd};
+..\app.c: 15 warnings, 0 errors
+linking...
+Program Size: Code=34552 RO-data=1136 RW-data=300 ZI-data=15412  
+FromELF: creating hex file...
+After Build - User command #1: fromelf.exe --bin -o "D:\工作资料\机车远程管理\软件\键盘控制器V1\KeyPad\Micrium\STM32F103\uCOS-III\KeilMDK\Obj\KeyPAD.bin" "D:\工作资料\机车远程管理\软件\键盘控制器V1\KeyPad\Micrium\STM32F103\uCOS-III\KeilMDK\Obj\KeyPAD.axf"
+".\Obj\KeyPAD.axf" - 0 Error(s), 15 Warning(s).
+P;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(42): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(42): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(42): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(42): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(43): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(43): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(43): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(43): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(43): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(43): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(43): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(43): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(43): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(43): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(44): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(44): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(44): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(44): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(44): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(44): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(44): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(44): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(44): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(44): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(45): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(45): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(45): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(45): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(45): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(45): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(45): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(45): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(45): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(45): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(46): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(46): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(46): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(46): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(46): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(46): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(46): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(46): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(46): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(46): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(47): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(47): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(47): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(47): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(47): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(47): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(47): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(47): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(47): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(47): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(49): warning:  #174-D: expression has no effect
+                __NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(49): warning:  #174-D: expression has no effect
+                __NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(273): error:  #20: identifier "gen_timer2_counter_in_us" is undefined
+        gen_timer2_counter_in_us=5000; // 鍦‵2812鍚態C7281鍙戝嚭涓�涓椂閽熻剦鍐插悗锛岀敤5ms鏃堕棿鏉ョ瓑寰匓C_DAT鍙樹綆銆傚鏋滃湪5ms鍐呮病鏈夊彉浣庯紝鍒欓噸鍙戜竴涓椂閽熻剦鍐层�?       ^
+..\..\BSP\KeyParse\Key.c(348): error:  #20: identifier "gen_timer2_counter_in_us" is undefined
+                if(gen_timer2_counter_in_us==0)return 0x00; // 瓒呮椂鍑洪敊, 鐩存帴杩斿洖銆?               ^
+..\..\BSP\KeyParse\Key.c(447): warning:  #223-D: function "delay_gen_timer4_in_ms" declared implicitly
+                delay_gen_timer4_in_ms(50);
+..\..\BSP\KeyParse\Key.c(30): warning:  #177-D: function "delay__in_us" was declared but never referenced
+  __asm static void delay__in_us(unsigned us) 
+..\..\BSP\KeyParse\Key.c(144): warning:  #177-D: function "set_BC_KEY" was declared but never referenced
+  static void set_BC_KEY(int state)
+..\..\BSP\KeyParse\Key.c: 76 warnings, 2 errors
+".\Obj\DisplayPanel.axf" - 2 Error(s), 87 Warning(s).
+Target not created
+warnings, 2 errors
+".\Obj\DisplayPanel.axf" - 2 Error(s), 88 Warning(s).
+Target not created
+arget not created
+ression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(48): warning:  #174-D: expression has no effect
+                __NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(49): warning:  #174-D: expression has no effect
+                __NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(49): warning:  #174-D: expression has no effect
+                __NOP;__NOP;
+..\..\BSP\KeyParse\Key.c(273): error:  #20: identifier "gen_timer2_counter_in_us" is undefined
+        gen_timer2_counter_in_us=5000; // 鍦‵2812鍚態C7281鍙戝嚭涓�涓椂閽熻剦鍐插悗锛岀敤5ms鏃堕棿鏉ョ瓑寰匓C_DAT鍙樹綆銆傚鏋滃湪5ms鍐呮病鏈夊彉浣庯紝鍒欓噸鍙戜竴涓椂閽熻剦鍐层�?       ^
+..\..\BSP\KeyParse\Key.c(348): error:  #20: identifier "gen_timer2_counter_in_us" is undefined
+                if(gen_timer2_counter_in_us==0)return 0x00; // 瓒呮椂鍑洪敊, 鐩存帴杩斿洖銆?               ^
+..\..\BSP\KeyParse\Key.c(447): warning:  #223-D: function "delay_gen_timer4_in_ms" declared implicitly
+                delay_gen_timer4_in_ms(50);
+..\..\BSP\KeyParse\Key.c(30): warning:  #177-D: function "delay__in_us" was declared but never referenced
+  __asm static void delay__in_us(unsigned us) 
+..\..\BSP\KeyParse\Key.c(144): warning:  #177-D: function "set_BC_KEY" was declared but never referenced
+  static void set_BC_KEY(int state)
+..\..\BSP\KeyParse\Key.c: 76 warnings, 2 errors
+compiling display.c...
+..\..\uCOS-III\stm32f10x_conf.h(25): warning:  #14-D: extra text after expected end of preprocessing directive
+  #include "stm32f10x_bkp.h";
+..\..\BSP\Display\display.c(62): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_fire_force ={110,96,138,124,0,NULL,CallBack_fire_force,0,"强制有火"}; 
+..\..\BSP\Display\display.c(63): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_nofire_force ={110,136,138,164,0,&btn_fire_force,CallBack_nofire_force,0,"强制无火"};
+..\..\BSP\Display\display.c(64): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_error_force ={260,96,288,124,0,&btn_nofire_force,CallBack_error_force,0,"强制故障"};
+..\..\BSP\Display\display.c(65): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_noerr_force ={260,136,288,164,0,&btn_error_force,CallBack_noerr_force,0,"强制无障"};
+..\..\BSP\Display\display.c(66): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_reset_para ={260,96,288,124,0,NULL,CallBack_reset_para,0,"恢复初值"};
+..\..\BSP\Display\display.c(67): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_self_test ={110,96,138,124,0,&btn_reset_para,CallBack_self_test,0,"执行自检"};
+..\..\BSP\Display\display.c(68): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_frelay_force ={110,136,138,164,0,&btn_self_test,CallBack_frelay_force,0,"火焰NB/A"};
+..\..\BSP\Display\display.c(69): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_erelay_force ={260,136,288,164,0,&btn_frelay_force,CallBack_erelay_force,0,"故障NB/A"};
+..\..\BSP\Display\display.c(71): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_out_freq ={110,96,138,124,0,NULL,CallBack_out_freq,0,"频率输出"}; 
+..\..\BSP\Display\display.c(72): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_out_quality ={110,136,138,164,0,&btn_out_freq,CallBack_out_quality,0,"质量输出"};
+..\..\BSP\Display\display.c(73): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_out_strength ={260,96,288,124,0,&btn_out_quality,CallBack_out_strength,0,"强度输出"};
+..\..\BSP\Display\display.c(74): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+   MENU_BUTTON   btn_out_test ={260,136,288,164,0,&btn_out_strength,CallBack_out_test,0,"测试输出"};
+..\..\BSP\Display\display.c(76): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+  const MENU_BUTTON      btn_left = {54,152,114,182,0,NULL,CallBack_add,0,"数值自加"};
+..\..\BSP\Display\display.c(77): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+  const MENU_BUTTON      btn_right ={136,152,196,182,0,&btn_left,CallBack_minus,0,"数值自减"};
+..\..\BSP\Display\display.c(78): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+  const MENU_BUTTON      btn_ok ={216,152,276,182,0,&btn_right,CallBack_ok,0,"数值确定"};
+..\..\BSP\Display\display.c(79): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+  const MENU_BUTTON      btn_add = {75,154,110,187,0,NULL,CallBack_output_add,0,"数值自加"};
+..\..\BSP\Display\display.c(80): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+  const MENU_BUTTON      btn_minus ={142,154,178,187,0,&btn_add,CallBack_output_minus,0,"数值自减"};
+..\..\BSP\Display\display.c(81): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+  const MENU_BUTTON      btn_enter ={210,154,245,187,0,&btn_minus,CallBack_output_ok,0,"数值确定"};
+..\..\BSP\Display\display.c(82): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+  const MENU_BUTTON      btn_opt3_add = {75,154,110,187,0,NULL,CallBack_opt3_add,0,"数值自加"};
+..\..\BSP\Display\display.c(83): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+  const MENU_BUTTON      btn_opt3_minus ={142,154,178,187,0,&btn_opt3_add,CallBack_opt3_minus,0,"数值自减"};
+..\..\BSP\Display\display.c(84): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(uint8_t)"
+  const MENU_BUTTON      btn_opt3_enter ={210,154,245,187,0,&btn_opt3_minus,CallBack_opt3_ok,0,"数值确定"};
+..\..\BSP\Display\display.c(434): warning:  #177-D: variable "dat" was declared but never referenced
+        uint32_t dat;
+..\..\BSP\Display\display.c(557): warning:  #177-D: variable "color" was declared but never referenced
+        uint16_t color[4]={0xF800,0x93A0,0x07E0};
+..\..\BSP\Display\display.c(605): warning:  #177-D: variable "color" was declared but never referenced
+        uint16_t color[4]={0xF800,0x93A0,0x07E0};
+..\..\BSP\Display\display.c(1791): warning:  #174-D: expression has no effect
+                        GUI_TRACE("%s\n",menu_root[i]->pname);
+..\..\BSP\Display\display.c(1791): warning:  #174-D: expression has no effect
+                        GUI_TRACE("%s\n",menu_root[i]->pname);
+..\..\BSP\Display\display.c(1809): warning:  #174-D: expression has no effect
+                        GUI_TRACE("%s->%s\n",Main_Menu_Pos.class_pos->pname,pitem->pname);
+..\..\BSP\Display\display.c(1809): warning:  #174-D: expression has no effect
+                        GUI_TRACE("%s->%s\n",Main_Menu_Pos.class_pos->pname,pitem->pname);
+..\..\BSP\Display\display.c(1809): warning:  #174-D: expression has no effect
+                        GUI_TRACE("%s->%s\n",Main_Menu_Pos.class_pos->pname,pitem->pname);
+..\..\BSP\Display\display.c(1823): warning:  #174-D: expression has no effect
+                                GUI_TRACE("%s->%s->%s\n",Main_Menu_Pos.class_pos->pname,Main_Menu_Pos.item_pos->pname,pbtn->pname);
+..\..\BSP\Display\display.c(1823): warning:  #174-D: expression has no effect
+                                GUI_TRACE("%s->%s->%s\n",Main_Menu_Pos.class_pos->pname,Main_Menu_Pos.item_pos->pname,pbtn->pname);
+..\..\BSP\Display\display.c(1823): warning:  #174-D: expression has no effect
+                                GUI_TRACE("%s->%s->%s\n",Main_Menu_Pos.class_pos->pname,Main_Menu_Pos.item_pos->pname,pbtn->pname);
+..\..\BSP\Display\display.c(1823): warning:  #174-D: expression has no effect
+                                GUI_TRACE("%s->%s->%s\n",Main_Menu_Pos.class_pos->pname,Main_Menu_Pos.item_pos->pname,pbtn->pname);
+..\..\BSP\Display\display.c(1838): warning:  #174-D: expression has no effect
+                                GUI_TRACE("%s->%s->%s\n",Main_Menu_Pos.class_pos->pname,Main_Menu_Pos.item_pos->pname,ptxt->pname);
+..\..\BSP\Display\display.c(1838): warning:  #174-D: expression has no effect
+                                GUI_TRACE("%s->%s->%s\n",Main_Menu_Pos.class_pos->pname,Main_Menu_Pos.item_pos->pname,ptxt->pname);
+..\..\BSP\Display\display.c(1838): warning:  #174-D: expression has no effect
+                                GUI_TRACE("%s->%s->%s\n",Main_Menu_Pos.class_pos->pname,Main_Menu_Pos.item_pos->pname,ptxt->pname);
+..\..\BSP\Display\display.c(1838): warning:  #174-D: expression has no effect
+                                GUI_TRACE("%s->%s->%s\n",Main_Menu_Pos.class_pos->pname,Main_Menu_Pos.item_pos->pname,ptxt->pname);
+..\..\BSP\Display\display.c(1847): warning:  #68-D: integer conversion resulted in a change of sign
+        return -1;
+..\..\BSP\Display\display.c(1972): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\BSP\Display\display.c(122): warning:  #177-D: variable "NofireTrigerTime" was declared but never referenced
+  static uint8_t NofireTrigerTime=1;
+..\..\BSP\Display\display.c(130): warning:  #177-D: variable "Output_Text_Temp" was declared but never referenced
+  static int8_t Output_Text_Temp[4]={0};
+..\..\BSP\Display\display.c(147): warning:  #177-D: variable "GUI_Cmd_Set_Color" was declared but never referenced
+  static const uint8_t GUI_Cmd_Set_Color[]={0xfd,0x05,0x00,0x04,0x93,0xA0,0x00,0x00,0xdd,0xcc,0xbb,0xaa};
+..\..\BSP\Display\display.c(148): warning:  #177-D: variable "GUI_Cmd_BackLight_On" was declared but never referenced
+  static const uint8_t GUI_Cmd_BackLight_On[]={0xfd,0x0A,0x00,0x00,0xdd,0xcc,0xbb,0xaa};
+..\..\BSP\Display\display.c(149): warning:  #177-D: variable "GUI_Cmd_BackLight_Off" was declared but never referenced
+  static const uint8_t GUI_Cmd_BackLight_Off[]={0xfd,0x09,0x00,0x00,0xdd,0xcc,0xbb,0xaa};
+..\..\BSP\Display\display.c(150): warning:  #177-D: variable "GUI_Cmd_Set_String" was declared but never referenced
+  static const uint8_t GUI_Cmd_Set_String[]={0xfd,0x10,0x00,0x07,0x00,0xF6,0x00,0x9C,0x33,0x34,0x35,0xdd,0xcc,0xbb,0xaa};
+..\..\BSP\Display\display.c(153): warning:  #177-D: variable "GUI_Cmd_Draw_Rect" was declared but never referenced
+  static const uint8_t GUI_Cmd_Draw_Rect[]={0xfd,0x27,0x00,0x09,0x01,0x00,0xE0,0x00,0x3C,0x00,0xF0,0x00,0x84,0xdd,0xcc,0xbb,0xaa};
+..\..\BSP\Display\display.c(155): warning:  #177-D: variable "GUI_Cmd_Fill_Circle" was declared but never referenced
+  static const uint8_t GUI_Cmd_Fill_Circle[]={0xfd,0x26,0x00,0x06,0x01,0x00,0x00,0x00,0x00,0x00,0xdd,0xcc,0xbb,0xaa};
+..\..\BSP\Display\display.c(156): warning:  #177-D: variable "GUI_Cmd_Draw_Circle" was declared but never referenced
+  static const uint8_t GUI_Cmd_Draw_Circle[]={0xfd,0x26,0x00,0x12,0x01,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,
+..\..\BSP\Display\display.c(159): warning:  #177-D: variable "GUI_Cmd_Bar_Cut" was declared but never referenced
+  static const uint8_t GUI_Cmd_Bar_Cut[]={0xfd,0x37,0x00,0x0e,0x00,0xD6,0x00,0x2C,0x01,0x00,0xD6,0x00,0x2C,0x00,0x68,0x00,0x9A,0x00,0xdd,0xcc,0xbb,0xaa};
+..\..\BSP\Display\display.c(1655): warning: C4017W: img_title may be used before being set
+        uint8_t img_no,img_title;
+..\..\BSP\Display\display.c: 51 warnings, 0 errors
+compiling command.c...
+..\..\uCOS-III\stm32f10x_conf.h(25): warning:  #14-D: extra text after expected end of preprocessing directive
+  #include "stm32f10x_bkp.h";
+..\..\BSP\Console\command.c(1040): warning:  #177-D: variable "ret" was declared but never referenced
+        int ret,i;
+..\..\BSP\Console\command.c: 2 warnings, 0 errors
+compiling getcmd.c...
+..\..\uCOS-III\stm32f10x_conf.h(25): warning:  #14-D: extra text after expected end of preprocessing directive
+  #include "stm32f10x_bkp.h";
+..\..\BSP\Console\getcmd.c: 1 warning, 0 errors
+compiling string.c...
+..\..\uCOS-III\stm32f10x_conf.h(25): warning:  #14-D: extra text after expected end of preprocessing directive
+  #include "stm32f10x_bkp.h";
+..\..\BSP\Console\string.c: 1 warning, 0 errors
+compiling term.c...
+..\..\uCOS-III\stm32f10x_conf.h(25): warning:  #14-D: extra text after expected end of preprocessing directive
+  #include "stm32f10x_bkp.h";
+..\..\BSP\Console\term.c: 1 warning, 0 errors
+compiling printk.c...
+..\..\uCOS-III\stm32f10x_conf.h(25): warning:  #14-D: extra text after expected end of preprocessing directive
+  #include "stm32f10x_bkp.h";
+..\..\BSP\Console\printk.c(25): warning:  #177-D: function "skip_atoi" was declared but never referenced
+  static int skip_atoi(const char **s)
+..\..\BSP\Console\printk.c(58): warning:  #177-D: function "number" was declared but never referenced
+  static char * number(char * buf, char * end, long long num, int base, int size, int precision, int type)
+..\..\BSP\Console\printk.c: 3 warnings, 0 errors
+compiling RTC.c...
+..\..\uCOS-III\stm32f10x_conf.h(25): warning:  #14-D: extra text after expected end of preprocessing directive
+  #include "stm32f10x_bkp.h";
+..\..\BSP\RTC\RTC.c(200): warning:  #550-D: parameter "pDate" was set but never used
+  void RTC_GetTime(tDate *pDate){
+..\..\BSP\RTC\RTC.c: 2 warnings, 0 errors
+".\Obj\DisplayPanel.axf" - 2 Error(s), 163 Warning(s).
+Target not created
